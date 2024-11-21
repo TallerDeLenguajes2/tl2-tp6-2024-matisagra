@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4 mb-4 text-primary">Bienvenido a Tienda Online</h1>
+        <p class="lead text-muted mb-5">Explora nuestros productos y gestiona tus presupuestos fácilmente.</p>
+        <div class="d-flex justify-content-center gap-4">
+            <a class="btn btn-lg btn-outline-primary shadow-sm" asp-controller="Productos" asp-action="Index">
+                <i class="bi bi-box-fill me-2"></i> Productos
+            </a>
+            <a class="btn btn-lg btn-outline-success shadow-sm" asp-controller="Presupuestos" asp-action="Index">
+                <i class="bi bi-file-earmark-earphones-fill me-2"></i> Presupuestos
+            </a>
+        </div>
+    </div>
+</div>
